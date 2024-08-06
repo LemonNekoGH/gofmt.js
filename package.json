@@ -1,6 +1,6 @@
 {
   "name": "@lemonneko/gofmt.js",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A gofmt tool compiled by GopherJS",
   "scripts": {
     "test": "node test.cjs && node test.mjs",
@@ -16,7 +16,8 @@
     "index.cjs",
     "index.mjs",
     "main.js",
-    "index.d.ts",
+    "index.d.cts",
+    "index.d.mts",
     "LICENSE",
     "README.md"
   ],
@@ -26,5 +27,5 @@
       "import": "./index.mjs"
     }
   },
-  "types": "index.d.ts"
+  "types": "index.d.mts"
 }
