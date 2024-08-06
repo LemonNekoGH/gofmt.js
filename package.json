@@ -1,0 +1,30 @@
+{
+  "name": "@lemonneko/gofmt.js",
+  "version": "0.1.0",
+  "description": "A gofmt tool compiled by GopherJS",
+  "scripts": {
+    "test": "node test.cjs && node test.mjs",
+    "build": "$(go env GOPATH)/bin/gopherjs build -m main.go"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.cjs",
+    "index.mjs",
+    "main.js",
+    "index.d.ts",
+    "LICENSE",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "require": "./index.cjs",
+      "import": "./index.mjs"
+    }
+  },
+  "types": "index.d.ts"
+}
