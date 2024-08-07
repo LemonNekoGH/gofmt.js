@@ -1,6 +1,6 @@
 {
   "name": "@lemonneko/gofmt.js",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A gofmt tool compiled by GopherJS",
   "scripts": {
     "test": "node test.cjs && node test.mjs",
